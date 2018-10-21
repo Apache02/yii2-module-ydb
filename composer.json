@@ -1,0 +1,23 @@
+{
+    "name": "apache02/yii2-module-ydb",
+    "description": "Database readerd module for Yii2 framework",
+    "type": "yii2-extension",
+    "keywords": ["yii2","database"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Apache02",
+            "email": "gxad02@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.15",
+		"apache02/yii2-semantic-ui": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "apache02\\ydb\\": "src"
+        }
+    }
+}
+	
